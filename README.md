@@ -13,8 +13,8 @@ Step 1 Setup for Python:<br />
               &emsp;pip3 install -r api/requirements.txt<br /> 
               &emsp;Install Tensorflow Serving (Setup instructions)<br /> 
 Step 2  Setup for ReactJS<br /> 
-          &emsp;Install Nodejs (Setup instructions)<br /> 
-          &emsp;Install NPM (Setup instructions)<br /> 
+          &emsp;Install Nodejs <br /> 
+          &emsp;Install NPM <br /> 
           &emsp;Install dependencies<br /> 
            &emsp;   cd frontend<br /> 
            &emsp;   npm install --from-lock-json<br /> 
@@ -50,6 +50,4 @@ Step 5    Get inside api folder<br />
 4. Synopsis
 5. Final Presentation
 6. Source Code
-7. Database dump (.sql file)
-8. If a web project, then a Docker file for deployment
-9. README (This file)
+7. README (This file)
