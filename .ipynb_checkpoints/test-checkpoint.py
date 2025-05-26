@@ -10,7 +10,7 @@ import numpy as np
 model = load_model('models/2.keras')
 
 # Load and preprocess the image
-img_path = 'E:/Skin/fuc.jpeg'  # Corrected path with forward slashes
+img_path = 'E:/Skin/f.jpeg'  # Corrected path with forward slashes
 img = image.load_img(img_path, target_size=(224, 224))  # Assuming the target size expected by your model
 img_array = image.img_to_array(img)
 img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
